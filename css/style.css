@@ -1,0 +1,381 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+body img{
+    width: 100%;
+}
+
+header{
+    line-height: 80px;
+}
+
+header .header-container{
+    width: 100%;
+    padding: 0 20px;
+    min-width: 1180px;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header img{
+    vertical-align: text-bottom;
+}
+
+header .header-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+header .header-container ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+button{
+    color: white;
+    background-color: #0061ff;
+    padding: 10px 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section.jumbotron{
+    background-color: #b4d0e7;
+    padding-top: 150px;
+    height: 750px;
+}
+
+.large-container{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+section.jumbotron .large-container h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+section.jumbotron .large-container .text{
+    width: 30%;
+}
+
+section.jumbotron .large-container .img{
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+
+section.jumbotron .large-container p{
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+section.jumbotron .large-container i{
+    font-size: 40px;
+}
+
+section.jumbotron img{
+    padding-top:20px;
+}
+
+main section{
+    padding-top: 200px;
+}
+
+.small-container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+main section h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+main section.dropbox-prezzi span{
+    padding-right: 20px;
+}
+
+main section.dropbox-prezzi .input{
+    padding-bottom: 20px;
+}
+
+main section.dropbox-prezzi .cards-container{
+    padding-bottom: 150px;
+}
+
+main section.dropbox-prezzi .card{
+    width: 30%;
+    height: 1200px;
+    border: black solid 1px;
+    font-size: 14px;
+}
+
+main section.dropbox-prezzi .card div{
+    padding: 20px;
+}
+
+.hr{
+    background-color: lightgrey;
+    width: 40px;
+    height: 1px;
+}
+
+main section .card-centre{
+    margin: 0 5%;
+}
+
+main section.dropbox-prezzi .text-centre{
+    text-align: center;
+}
+
+
+main section.dropbox-prezzi .option{
+    border-bottom: black solid 1px;
+}
+
+main section.dropbox-prezzi .title-card{
+    line-height: 50px;
+}
+
+main section h3{
+    font-size: 27px;
+}
+
+main section.dropbox-prezzi .title-card p{
+    color: #667583;
+}
+
+main section.dropbox-prezzi .archiving p{
+    padding: 10px 0;
+}
+
+main section  a{
+    color: #3883ff;
+    font-weight: 600;
+}
+
+main section.dropbox-prezzi .plan-info h4, li{
+    list-style: none;
+    padding: 20px 0;
+}
+
+main section.dropbox-prezzi .fa-check{
+    color: #126cff;
+}
+
+main section.dropbox-prezzi #card-horizontal{
+    height: 250px;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+
+main section.dropbox-prezzi .title-card button{
+    position: absolute;
+    right: 20px;
+}
+
+main section.dropbox-prezzi .partner-dropbox .img{
+    width: 60%;
+}
+
+main section.dropbox-prezzi .partner-dropbox .text-img{
+    width: 40%;
+    line-height: 30px;
+    padding: 40px 0 0 40px;
+}
+
+main section.dropbox-prezzi .partner-dropbox .text-img p{ 
+    padding: 40px 0;
+}
+
+main section.dropbox-prezzi .partner-dropbox button{ 
+    color: black;
+    background-color: white;
+    border: black solid 1px;
+}
+
+main section.dropbox-operazioni .operations-card{
+    width: 30%;
+}
+
+main section.dropbox-operazioni .operations-card h3{
+    padding: 20px 0;
+}
+
+main section.dropbox-operazioni .operations-card p{
+    padding-bottom: 50px;
+}
+
+main section .clients-container{
+    padding-top: 100px;
+}
+
+main section .clients-container .svg-contain{
+    width: 30%;
+    height: 400px;
+}
+
+main section .clients-container .svg-contain .svg{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+main section .clients-container .svg-contain .svg-bg-designit{
+    background-color: #a2d39b;
+    border: #d0e9cd solid 10px;
+}
+
+main section .clients-container .svg-contain .svg-bg-arizona{
+    background-color: #61082b;
+}
+
+main section .clients-container .svg-contain .svg-bg-florida{
+    background-color: #0093ce;
+}
+
+main section .clients-container .svg-contain .svg-bg-topps{
+    background-color: #ff1c1c;
+}
+
+main section .clients-container .svg-contain .svg-bg-world{
+    background-color: #d5001f;
+}
+
+main section .clients-container .svg-contain .svg-bg-hearts{
+    background-color: #b4d0e7;
+}
+
+main section .clients-container .svg-contain .svg-bg-lonely{
+    background-color: #0d2481;
+}
+
+main section .clients-container .svg-contain .svg-bg-clear{
+    background-color: #ffd830;
+}
+
+main section .clients-container .svg-contain img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    filter: invert(100%);
+}
+
+main section .clients-container .svg-text-contain img{
+    width: 87.5px;
+    height: 27.78;
+    padding-bottom: 30px;
+}
+
+main section .clients-container .svg-text-contain p{
+    padding: 30px 0;
+}
+
+main section .clients-container .svg-text-contain{
+    width: 40%;
+    padding: 30px;
+}
+
+main section.dropbox-prova-gratuita{
+    background-color: #b4d0e7;
+}
+
+main section.dropbox-prova-gratuita .small-container{
+    position: relative;
+}
+
+main section.dropbox-prova-gratuita button{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+main section.dropbox-prova-gratuita h2{
+    color: #61082b;
+    padding-bottom: 200px;
+}
+
+main section.dropbox-domande{
+    padding-bottom: 200px;
+}
+
+main section.dropbox-domande .small-container h3{
+    border-bottom:lightgray solid 1px;
+    padding-bottom: 30px;
+}
+
+main section.dropbox-domande .small-container i{
+    padding-right: 30px;
+}
+
+main section.dropbox-domande .small-container ul li{
+    border-bottom:lightgray solid 1px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer .large-container h4{
+    padding-bottom: 20px;
+}
+
+footer .large-container ul li{
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+footer .container-column{
+    width: calc(100% / 5)
+}
+
+footer .footer-top{
+    padding:40px 0;
+}
+
+footer .footer-bottom{
+    padding-bottom: 40px;
+}
+
+footer i{
+    padding-top: 30px;
+}
+
+/* effetti hover */
+
